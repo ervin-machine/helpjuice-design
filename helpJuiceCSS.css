@@ -138,12 +138,20 @@ p, h1, span {
     color: white;
 }
 
+.line {
+    width: 1px;
+    height: 24px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
 .helpjuice-book-demo {
     color: white;
     margin: 0px;
     white-space: nowrap;
     cursor: pointer;
-    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
 }
 
 .helpjuice-navbar-item {
