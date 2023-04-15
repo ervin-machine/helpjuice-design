@@ -550,8 +550,7 @@ a { color: inherit; }
 .card-text-background {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 32px 24px;
+    padding-bottom: 32px;
     gap: 32px;
     width: 336px;
     height: 314px;
@@ -590,6 +589,8 @@ a { color: inherit; }
     color: #FFFFFF;
     margin: 0px;
     padding: 0px;
+    margin-top: 32px;
+    margin-left: 24px;
 }
 
 .card-text-content {
@@ -598,6 +599,7 @@ a { color: inherit; }
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
+    margin-left: 24px;
 }
 
 .learn-more-text {
@@ -610,6 +612,7 @@ a { color: inherit; }
     padding: 0px;
     position: absolute;
     bottom: 32px;
+    margin-left: 24px;
 }
 
 .card-title-logo {
