@@ -1,0 +1,637 @@
+@font-face {
+    font-family: 'SatoshiVariable';
+    src: url('Satoshi-Variable.ttf') format('truetype');
+  }
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+p, h1, span {
+    font-family: 'SatoshiVariable';
+}
+
+.helpjuice-top-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background: url("top-navbar-bg.png");
+    padding: 0px;
+}
+
+.helpjuice-top-navbar-rect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    margin-top: 10px;
+    gap: 4px;
+    width: 70px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.16);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(36px);
+    border-radius: 16px;
+}
+
+.helpjuice-top-navbar-new-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-feature-settings: 'ss02' on, 'ss03' on, 'ss04' on;
+    color: #F1F9FF;
+}
+
+.helpjuice-top-navbar-text {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+.buy-now-text {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.helpjuice-top-navbar-img {
+    width: 14px;
+    height: 14px;
+    margin-left: 21px;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.header-container {
+    height: 652px;
+    background: rgba(6, 5, 17);
+}
+
+.helpjuice-navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.helpjuice-logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 132.8px;
+    height: 32px;
+}
+
+.helpjuice-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 56px;
+    width: 1280px;
+    height: 96px;
+}
+
+.helpjuice-navbar-left-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 398px;
+    height: 22px;
+}
+
+.helpjuice-navbar-right-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 532px;
+    height: 40px;
+}
+
+.helpjuice-logo {
+    width: 30.4px;
+    height: 30.4px;
+}
+
+.helpjuice-logo-text {
+    color: white;
+    margin-left: 16.8px;
+}
+
+.helpjuice-logo-text {
+    color: white;
+}
+
+.helpjuice-book-demo {
+    color: white;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.helpjuice-navbar-item {
+    color: white;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.email-input-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 4px 0px 12px;
+    gap: 8px;
+    width: 320px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+}
+
+.email-input {
+    height: 20px;
+    width: 165px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.get-started-button {
+    width: 103px;
+    height: 32px;
+    background: #0560FC;
+    border: 1px solid #0560FC;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 6px;
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.helpjuice-back-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    top: 144px;
+    background: rgba(6, 5, 17, 0.12);
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(80px);
+    z-index: 1;
+}
+
+.helpjuice-back-content {
+    width: 1280px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.back-to {
+    color: white;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.helpjuice-header-content {
+    width: 1064px;
+    justify-content: center;
+    height: auto;
+}
+
+.helpjuice-header-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 136px;
+}
+
+.helpjuice-header-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.56;
+    margin: 0px;
+    margin-top: 24px;
+}
+
+.helpjuice-header-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-media-list {
+    display: flex;
+    margin-top: 174px;
+    position: absolute;
+    right: -90px;
+    flex-direction: column;
+}
+
+.social-media-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.helpjuice-blog-author {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fire-icon {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.avatar-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.neon-image-1 {
+    position: absolute;
+    top: 0;
+    margin-top: 48px;
+    left: 0;
+}
+
+.neon-image-2 {
+    position: absolute;
+    top: 0;
+    margin-top: 148px;
+    right: 0;
+}
+
+.background-grid {
+    position: absolute;
+    margin-top: 60px;
+}
+
+.blog-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.helpjuice-dot {
+    width: 4px;
+    height: 4px;
+    margin: 8px 16px;
+}
+
+.video-image {
+    border-radius: 12px;
+}
+
+.video-content {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    margin-left: 24px;
+    margin-top: 179px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 0;
+    margin-top: 132px;
+    margin-left: 12px;
+}
+
+.video-name {
+
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.video-desc {
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+    margin-top: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.schedule-demo-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 352px;
+    height: 40px;
+    background: #0560FC;
+    border: 1px solid #0560FC;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 6px;
+    margin-left: 24px;
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.start-trial-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+    width: 352px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 6px;
+    margin-left: 24px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.close-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #101828;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 16px;
+    top: -9px;
+    right: -12px;
+}
+
+.blog-container {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-content {
+    width: 1064px;
+}
+
+.blog-image-content {
+    background-color: rgb(242, 244, 247);
+    height: 663px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1064px;
+    border-radius: 12px;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.blog-text {
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 425;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.72);
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.blog-bold-text {
+    color: rgba(0, 0, 0, 0.72) !important;
+    font-weight: 700;
+}
+
+.blog-link-list {
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.blog-link {
+    font-family: 'Satoshi Variable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0560FC;
+    text-decoration: underline;
+}
+
+a { color: inherit; } 
+
+.footer-blog {
+    background: #F8FAFC;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.footer-blog-content {
+    width: 1064px;
+}
+
+.footer-blog-title {
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+}
+
+.footer-blog-desc {
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 425;
+    font-size: 18px;
+    line-height: 28px;
+    color: #475467;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.helpjuice-card-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.card-container {
+    width: 384px;
+    height: auto;
+    padding: 0px 24px 24px 24px;
+    isolation: isolate;
+    margin-left: 32px;
+}
+
+.card-text-background {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 32px;
+    width: 336px;
+    height: 314px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px);
+    margin-top: 70px;
+}
+
+.card-title {
+    display: flex;
+}
+
+.card-title-text {
+    font-family: 'SatoshiVariable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 33px;
+    margin-left: 12px;
+}
+
+.card-title-logo {
+    height: 100%;
+}
+
+.card-text-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-text-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.learn-more-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 32px;
+}
+
+.card-title-logo {
+    margin-top: 33px;
+}
+
+.slider-background {
+    width: 1064px;
+    height: 8px;
+    background: #EAECF0;
+    border-radius: 12px;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+.slider {
+    width: 218px;
+    height: 8px;
+    background: #101828;
+    border-radius: 100px;
+}
+
+.arrow-icon {
+    margin-left: 14px;
+}
