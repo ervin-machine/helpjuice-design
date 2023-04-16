@@ -335,6 +335,8 @@ p, h1, span {
     width: 4px;
     height: 4px;
     margin: 8px 16px;
+    border-radius: 100%;
+    margin-top: 10px;
 }
 
 .video-image {
@@ -647,7 +649,7 @@ a { color: inherit; }
     margin-left: 14px;
 }
 
-@media only screen and (max-width: 1949px) {
+@media only screen and (max-width: 1449px) {
     .helpjuice-main-content {
         display: flex;
         flex-direction: column;
